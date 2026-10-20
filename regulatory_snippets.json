@@ -1,0 +1,98 @@
+[
+  {
+    "id": "R1",
+    "source_type": "official SAFE",
+    "source": "SAFE, Q&A on the Detailed Rules on Measures for the Administration of Individual Foreign Exchange (5 Jan 2007)",
+    "section": "annual quota",
+    "url": "https://www.safe.gov.cn/en/2007/0105/819.html",
+    "tags": [
+      "CN",
+      "quota",
+      "annual",
+      "individual",
+      "foreign",
+      "exchange",
+      "purchase"
+    ],
+    "text": "SAFE explains that the Detailed Rules set an annual quota of USD 50,000 for individual foreign exchange purchases, raised from USD 20,000.",
+    "verify": "2007 page; confirm the current quota and any later changes on safe.gov.cn."
+  },
+  {
+    "id": "R2",
+    "source_type": "official SAFE",
+    "source": "SAFE news item on the Circular Concerning Further Improving Administration of Foreign Exchange Settlement and Sale Business for Individuals (SAFE English site, 2009)",
+    "section": "fund splitting",
+    "url": "https://www.safe.gov.cn/en/2009/1223/913.html",
+    "tags": [
+      "CN",
+      "splitting",
+      "split",
+      "individual",
+      "settlement",
+      "sale",
+      "abnormal"
+    ],
+    "text": "SAFE says the circular targets foreign exchange settlement and sale through fund splitting. Transactions identified as splitting may be rejected by banks, examined for authenticity or reported to SAFE branches. The tool therefore never suggests splitting a payment.",
+    "verify": "2009 news item about the circular, not the circular itself; read the circular and cite its article numbers."
+  },
+  {
+    "id": "R3",
+    "source_type": "bank guidance (not SAFE)",
+    "source": "Bank of China, Individual Foreign Exchange Purchasing (English site)",
+    "section": "purchasing beyond the total annual amount: study abroad",
+    "url": "https://www.boc.cn/en/pbservice/pb4/200806/t20080626_1323972.html",
+    "tags": [
+      "CN",
+      "tuition",
+      "study",
+      "abroad",
+      "beyond",
+      "excess",
+      "admission",
+      "invoice",
+      "documents",
+      "bank"
+    ],
+    "text": "For tuition and living costs above the annual amount, Bank of China lists these documents: a personal passport with valid visa, the overseas school's admission letter (not needed for later terms), and the school's tuition or living-cost certificate.",
+    "verify": "Bank page dated 2008 and says SAFE's latest announcements prevail. Confirm requirements with your own bank."
+  },
+  {
+    "id": "R4",
+    "source_type": "bank guidance (not SAFE)",
+    "source": "Bank of China, Individual Foreign Exchange Purchasing (English site)",
+    "section": "notes on the annual total amount",
+    "url": "https://www.boc.cn/en/pbservice/pb4/200806/t20080626_1323972.html",
+    "tags": [
+      "CN",
+      "quota",
+      "annual",
+      "calendar",
+      "year",
+      "unused",
+      "reset"
+    ],
+    "text": "The annual total amount is counted per calendar year, and any unused amount cannot be carried over to the next year.",
+    "verify": "Same bank page; confirm with your bank."
+  },
+  {
+    "id": "R5",
+    "source_type": "official UK government (GOV.UK)",
+    "source": "GOV.UK, Student visa: money you need",
+    "section": "proof of funds",
+    "url": "https://www.gov.uk/student-visa/money",
+    "tags": [
+      "UK",
+      "GB",
+      "visa",
+      "maintenance",
+      "funds",
+      "balance",
+      "living",
+      "expenses",
+      "student",
+      "money"
+    ],
+    "text": "GOV.UK says a Student visa applicant must show enough money to pay course fees for one academic year (up to 9 months) plus living costs, and that the living-costs amount depends on where the student will study. The official living-cost figures are not the illustrative framework baseline this tool uses.",
+    "verify": "Living-cost amounts are set in the Immigration Rules and change over time; read the GOV.UK page and its financial-evidence guidance (gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants) for the current figure. Applies to UK-bound students; use the destination country's official page for other countries."
+  }
+]
