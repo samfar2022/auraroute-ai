@@ -1,2 +1,0 @@
-# Optional: only needed for live Fixer.io / Plaid Sandbox calls. The core and tests use the standard library only.
-requests>=2.31
