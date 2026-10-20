@@ -1,0 +1,10 @@
+{
+  "network_clearing_buffer_days": 5,
+  "minimum_visa_maintenance_usd": 2500.0,
+  "country_rules": {
+    "CN": {
+      "annual_quota_usd": 50000.0,
+      "source": "SAFE individual FX guidance (verify current figure with your bank)"
+    }
+  }
+}

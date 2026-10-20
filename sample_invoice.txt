@@ -1,0 +1,9 @@
+EXAMPLE UNIVERSITY - TUITION INVOICE
+Institution: Example University
+Name: Alex Example Student
+Student ID: EX-000000
+Passport No: E00000000
+Address: 1 Sample Street, Sample City
+Total Due: £12,000.00
+Currency: GBP
+Due Date: 2026-12-15
