@@ -1,7 +1,0 @@
-EXAMPLE UNIVERSITY - BURSAR'S OFFICE
-Name: Alex Example Student
-Passport No: E00000000
-Address: 1 Sample Street, Sample City
-
-Please remit twelve thousand pounds sterling (GBP 12,000.00) to Example University
-no later than 15 December 2026. Late payment may result in an enrolment hold.
