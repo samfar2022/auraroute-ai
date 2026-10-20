@@ -1,0 +1,34 @@
+test_anthropic_request_shape_and_parsing (test_core.AdapterTests.test_anthropic_request_shape_and_parsing) ... ok
+test_failure_returns_empty_string (test_core.AdapterTests.test_failure_returns_empty_string) ... ok
+test_from_env_requires_provider_and_key (test_core.AdapterTests.test_from_env_requires_provider_and_key) ... ok
+test_gemini_request_shape_and_parsing (test_core.AdapterTests.test_gemini_request_shape_and_parsing) ... ok
+test_injection_style_reply_is_rejected (test_core.AdapterTests.test_injection_style_reply_is_rejected) ... ok
+test_messy_invoice_end_to_end_with_redacted_text_only (test_core.AdapterTests.test_messy_invoice_end_to_end_with_redacted_text_only) ... ok
+test_audit_log_chain_detects_tampering (test_core.CoreTests.test_audit_log_chain_detects_tampering) ... ok
+test_extraction_handles_commas_and_cents (test_core.CoreTests.test_extraction_handles_commas_and_cents) ... ok
+test_fx_failure_falls_back_to_fixture (test_core.CoreTests.test_fx_failure_falls_back_to_fixture) ... ok
+test_gate_refuses_bad_date_and_nonpositive_amount (test_core.CoreTests.test_gate_refuses_bad_date_and_nonpositive_amount) ... ok
+test_gate_refuses_missing_fields (test_core.CoreTests.test_gate_refuses_missing_fields) ... ok
+test_gate_without_confirmation_does_not_verify (test_core.CoreTests.test_gate_without_confirmation_does_not_verify) ... ok
+test_llm_fallback_ignores_invalid_output (test_core.CoreTests.test_llm_fallback_ignores_invalid_output) ... ok
+test_llm_fallback_never_overrides_regex_values_or_verifies (test_core.CoreTests.test_llm_fallback_never_overrides_regex_values_or_verifies) ... ok
+test_llm_output_accepted_when_valid (test_core.CoreTests.test_llm_output_accepted_when_valid) ... ok
+test_llm_output_rejected_when_invalid (test_core.CoreTests.test_llm_output_rejected_when_invalid) ... ok
+test_missing_fields_stay_none (test_core.CoreTests.test_missing_fields_stay_none) ... ok
+test_orchestrator_blocks_unverified_payload_and_logs_it (test_core.CoreTests.test_orchestrator_blocks_unverified_payload_and_logs_it) ... ok
+test_over_quota_advises_bank_route_and_never_splits (test_core.CoreTests.test_over_quota_advises_bank_route_and_never_splits) ... ok
+test_redaction_leaves_institution_line_alone (test_core.CoreTests.test_redaction_leaves_institution_line_alone) ... ok
+test_redaction_removes_multiword_name_and_other_identifiers (test_core.CoreTests.test_redaction_removes_multiword_name_and_other_identifiers) ... ok
+test_retrieval_returns_cited_snippets (test_core.CoreTests.test_retrieval_returns_cited_snippets) ... ok
+test_unknown_country_asks_for_manual_check (test_core.CoreTests.test_unknown_country_asks_for_manual_check) ... ok
+test_visa_buffer_warning (test_core.CoreTests.test_visa_buffer_warning) ... ok
+test_within_quota (test_core.CoreTests.test_within_quota) ... ok
+test_all_labeled_identifiers_removed (test_extended_redaction.ExtendedRedactionTests.test_all_labeled_identifiers_removed) ... ok
+test_institution_line_survives_and_fields_parse (test_extended_redaction.ExtendedRedactionTests.test_institution_line_survives_and_fields_parse) ... ok
+test_over_quota_advice_uses_bank_vocabulary_and_never_splits (test_extended_redaction.ExtendedRedactionTests.test_over_quota_advice_uses_bank_vocabulary_and_never_splits) ... ok
+test_unverified_payload_blocked (test_extended_redaction.ExtendedRedactionTests.test_unverified_payload_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.100s
+
+OK
