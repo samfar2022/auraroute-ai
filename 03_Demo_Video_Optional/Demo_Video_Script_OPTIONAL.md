@@ -1,5 +1,6 @@
-# Item 03: Demo video (optional, 5 minutes maximum)
-No video is included in this package; the rules make Item 03 optional. If you decide to record, follow this script.
+# Item 03: Demo video 
+
+Script:
 
 1. 0:00 Problem and the "AI proposes, code decides, the student approves" idea (30s).
 2. 0:30 `python -m unittest discover -s tests -v` passing, 29 tests (30s).
