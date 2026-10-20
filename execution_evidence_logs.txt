@@ -1,0 +1,35 @@
+[INFO ] 13:10:32.739 - AuraRoute AI execution evidence log
+[INFO ] 13:10:32.739 - Run started 2026-10-20T13:10:32.739180+00:00 | Python 3.12.3 | Linux
+[INFO ] 13:10:32.739 - Mode: FIXTURE (offline, recorded sandbox data)
+[INFO ] 13:10:32.739 - Fixer.io: no key, using recorded fixture | Plaid Sandbox: no token, using recorded fixture
+[INFO ] 13:10:32.739 - Loaded invoice 'data/sample_invoice.txt', rules table, profile and 5 rule snippets
+[INFO ] 13:10:32.740 - Layer 1: redaction applied before extraction. Text after redaction:
+[TEXT ] 13:10:32.740 -   | EXAMPLE UNIVERSITY - TUITION INVOICE
+[TEXT ] 13:10:32.740 -   | Institution: Example University
+[TEXT ] 13:10:32.740 -   | Name: [REDACTED]
+[TEXT ] 13:10:32.740 -   | Student ID: [REDACTED]
+[TEXT ] 13:10:32.740 -   | Passport No: [REDACTED]
+[TEXT ] 13:10:32.740 -   | Address: [REDACTED]
+[TEXT ] 13:10:32.740 -   | Total Due: £12,000.00
+[TEXT ] 13:10:32.740 -   | Currency: GBP
+[TEXT ] 13:10:32.740 -   | Due Date: 2026-12-15
+[DATA ] 13:10:32.740 - Extracted: {"amount": 12000.0, "currency": "GBP", "due_date": "2026-12-15", "institution": "Example University", "parser_confidence": 1.0}
+[WARN ] 13:10:32.740 - Orchestrator refused the unverified payload: Unverified payload blocked at orchestrator interface.
+[INFO ] 13:10:32.740 - Gate: user confirmation SIMULATED by --auto-confirm (fields accepted as parsed)
+[INFO ] 13:10:32.742 - Gate: human_verified = True
+[INFO ] 13:10:32.742 - Layer 3 receives the verified payload directly; Layer 2 receives only the rule query
+[INFO ] 13:10:32.742 - Layer 2 query: 'CN tuition annual quota splitting visa maintenance funds'
+[DATA ] 13:10:32.742 - Rule R3 | bank guidance (not SAFE) | Bank of China, Individual Foreign Exchange Purchasing (English site) | section: purchasing beyond the total annual amount: study abroad
+[DATA ] 13:10:32.742 - Rule R5 | official UK government (GOV.UK) | GOV.UK, Student visa: money you need | section: proof of funds
+[DATA ] 13:10:32.742 - Rule R1 | official SAFE | SAFE, Q&A on the Detailed Rules on Measures for the Administration of Individual Foreign Exchange (5 Jan 2007) | section: annual quota
+[DATA ] 13:10:32.742 - Rule R4 | bank guidance (not SAFE) | Bank of China, Individual Foreign Exchange Purchasing (English site) | section: notes on the annual total amount
+[DATA ] 13:10:32.742 - Rule R2 | official SAFE | SAFE news item on the Circular Concerning Further Improving Administration of Foreign Exchange Settlement and Sale Business for Individuals (SAFE English site, 2009) | section: fund splitting
+[DATA ] 13:10:32.742 - FX source: fixture | invoice in USD: 15,240.00
+[DATA ] 13:10:32.742 - Total balances: 16,500.00 USD | projected after payment: 1,260.00 USD (buffer 2,500.00)
+[DATA ] 13:10:32.742 - Remaining annual quota: 8,000.00 USD | within quota: False
+[DATA ] 13:10:32.742 - Latest safe initiation date: 2026-12-10
+[ADVICE] 13:10:32.742 - Amount exceeds the remaining standard annual quota. Ask your bank about the documented tuition-payment route, which typically requires the admission notice and the tuition invoice. Do not split the payment.
+[ADVICE] 13:10:32.742 - Projected post-payment balance is below the configured living-expense buffer. Review your maintenance-fund requirements with your institution or consulate.
+[INFO ] 13:10:32.742 - Wrote dashboard.html
+[INFO ] 13:10:32.742 - Audit log hash chain verified: True
+[INFO ] 13:10:32.742 - Run complete. No funds were moved; this tool is read-only and advisory.
