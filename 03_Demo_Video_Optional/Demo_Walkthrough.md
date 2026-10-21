@@ -36,6 +36,9 @@ Open dashboard.html. Expected, for the synthetic sample case:
   execution_evidence_logs.txt.
 
 ## What this tool does not do
-It does not move, split or route money, and it makes no legal or immigration
-determination. The 50,000 USD quota, 2,500 USD baseline and 5-day buffer are
-configurable defaults, not verified requirements.
+It does not hold, move, split or route money, and it makes no legal or
+immigration determination. When an amount exceeds the remaining quota, it
+flags it and points to the bank's documented tuition-payment channel.
+The 50,000 USD annual quota (China, SAFE), the 2,500 USD baseline and the
+5-day clearing buffer are configurable defaults, not verified current
+requirements. Confirm them with your bank, institution or consulate.
