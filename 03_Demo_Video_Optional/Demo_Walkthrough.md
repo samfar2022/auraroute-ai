@@ -5,12 +5,14 @@ library only. Evidence files are in Item 06.
 
 ## Step 1: Verify the controls (about 30 s)
 python -m unittest discover -s tests -v
+
 Expected: 29 tests pass (25 core and adapter, 4 supplementary). Covers
 redaction, the human gate, hostile model output, over-quota advice, FX
 fallback and audit tampering.
 
 ## Step 2: Run the pipeline (about 60 s)
 python run_demo.py
+
 Read: the redacted text (8 identifier labels replaced by [REDACTED]), then the
 parsed record: 12000.0 GBP, due 2026-12-15, Example University, confidence 1.0.
 Confirm the values at the human gate. Nothing proceeds without this.
